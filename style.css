@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--cursive);
+}
+
+body{
+    height: 2600px;
+   
+}
+
+.container{
+    width: 80%;
+    margin: auto
+}
+
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    background-color: lightblue;
+    
+    }
+
+    div {
+        display: block;
+    }
+
+
+body{
+    font-family: var(--cursive);
+}
+
+.logo{
+
+    color:black;
+    
+    width:100%;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    }
+
+    .nav{
+        text-align: right;
+        float: left;
+        width: 65%;
+        font-size: 20px;
+        }
+    .list{
+        list-style-type: none;
+    }
+
+    .list-item{
+        display: inline-block;
+    
+    }
+
+    .link-nav{
+        text-decoration: none;
+        color:black;
+        text-transform: capitalize;
+        margin-right: 10px;
+        font-size: 18px;
+        font-style: italic;
+    
+    }
+    .header-content {
+        background-image: url(hospital.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: left 15%;
+        background-repeat: no-repeat;
+    }
+  
+
+.Home{
+    text-align: center;
+   padding-top: 300px;
+}
+
+.main-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 50px;
+    width: 50%;
+    margin: auto;
+ 
+}
+
+.line{
+    background-color: var(--secColor);
+    height: 3px;
+    width: 180px;
+    margin: auto;
+    display:block;
+}
+
+.main-description{
+color:white ;
+width: 37%;
+margin: auto;
+font-size: 20px;
+}
+
+.link{
+    background-color:lightblue;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 20px 50px;
+    
+}
+
+.header .overlay{
+    background-color:rgba(0,0,0,0.8);
+    height: 100%;
+    }
+
+    .about{
+        background-color: rgb(0, 0, 0);
+            color: black;
+            text-align: center;
+           padding-top: 7%;
+            height: 650px;
+            background-size: cover;
+            padding-top: 1px;
+            overflow: hidden;
+            margin: auto;
+            
+         }
+
+         .main{
+            color: white;
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 50px;
+            width: 50%;
+            margin: auto;
+           padding-top: 17.5%;
+           
+            
+            
+        }
+
+        .Services{
+            text-align: center;
+           padding-top: 15%;
+           height: 650px;
+        }
+        
+        
+    
+        .about-heading{
+            text-align: center;
+            font-weight: 50px;
+            padding-top: 7%;
+            font-style: italic;
+            margin: auto;
+        }
+        .about-description{
+            margin-top: 15px;
+            padding-left: 0%;
+            width: 40%;
+            font-size: 18px;
+            word-spacing: 2px;
+            margin: auto;
+            
+        }
+
+      
+
+         .to-contact {
+            height: 650px;
+            padding-top: 150px;
+            text-align: center;
+            background-color: gray;
+            overflow: hidden;
+        }
+
+
+        .to-contact h1 {
+            font-size: 40px;
+            text-transform: capitalize;
+            padding-bottom: 20px;
+            color: white;
+        }
+
+
+        .li {
+            background-color: lightblue;
+            height: 4px;
+            width: 130px;
+            margin: 30px auto;
+            display: block;
+        }
+
+        .to-contact h3 {
+            font-size: 17px;
+            text-transform: capitalize;
+            width: 75%;
+            padding-left: 25%;
+            color: white;
+        }
+        
+        .contact-items {
+            overflow: auto;
+            padding-top: 50px;
+        }
+
+        .contact-item {
+            float: left;
+            width: 25%;
+        }
+
+        .contact-items .fas {
+            color: lightblue;
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        
+        .to-contact h4 {
+            padding-bottom: 20px;
+            text-transform: capitalize;
+            color: white;
+        }
+        .to-contact .contact-item p {
+            font-size: 19px;
+            color: lightblue;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 55%;
+        }
+        .contact-item {
+            float: left;
+            width: 25%;
+        }
+        
+        .footer{
+            text-align: center;
+        }
+        
+
+
